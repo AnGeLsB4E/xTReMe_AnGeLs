@@ -558,7 +558,7 @@ function populateUserlist()
 
         $('#plugbot-userlist').append('<h1 style="text-indent:12px;color:#42A5DC;font-size:14px;font-variant:small-caps;">Utilisateurs: ' + API.getUsers().length + '</h1>');
 
-        $('#plugbot-userlist').append('<p style="padding-left:12px;text-indent:0px !important;font-style:italic;color:#C8303D;font-size:11px;">Rejoin notre site<br />boost4ever.fr</p><br />');
+        $('#plugbot-userlist').append('<p style="padding-left:12px;text-indent:0px !important;font-style:italic;color:#FEFEFE;font-size:12px;">Rejoin notre site<br />boost4ever.fr</p><br />');
 
         if ($('#button-dj-waitlist-view').attr('title') !== '')
         {
