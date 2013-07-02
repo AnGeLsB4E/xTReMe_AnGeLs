@@ -87,7 +87,7 @@ function displayUI()
 		
         $('#plugbot-ui1').append(
 				'<center><p id="plugbot-btn-change" style="color:' + cChange + 
-				'">CHANGE AUTO PERSO</p></center>');
+				'">CHANGEAUTOPERSO</p></center>');
 		
 		$('#dj-booth').prepend('<div id="plugbot-ui2"></div>');
 		
