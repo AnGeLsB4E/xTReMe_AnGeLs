@@ -86,7 +86,7 @@ function displayUI()
 		var cChange = autochange ? '#42A5DC' : '#42A5DC' ;
 		
         $('#plugbot-ui1').append(
-				'<center><p id="plugbot-btn-change" style="color:#FFFF6B' + cChange + 
+				'<center><p id="plugbot-btn-change" style="color:' + cChange + 
 				'">AUTO.AVATAR</p></center>');
 		
 		$('#dj-booth').prepend('<div id="plugbot-ui2"></div>');
