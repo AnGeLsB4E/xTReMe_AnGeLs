@@ -7,7 +7,7 @@
  
 var active = "activé"
 
-setTimeout(function(){ log('Plugbot est maintenant ' + active.fontcolor('lightgreen') + '. Version 1.1') },1000);
+setTimeout(function(){ log('PlugB4E est maintenant ' + active.fontcolor('lightgreen') + '. Version 1.0') },1000);
 
 var autowoot;
 var autoqueue;
@@ -87,7 +87,7 @@ function displayUI()
 		
         $('#plugbot-ui1').append(
 				'<center><p id="plugbot-btn-change" style="color:' + cChange + 
-				'">AUTOCHANGE</p></center>');
+				'">CHANGE AUTO PERSO</p></center>');
 		
 		$('#dj-booth').prepend('<div id="plugbot-ui2"></div>');
 		
@@ -257,7 +257,7 @@ function initUIListeners()
                         $('#button-vote-positive').click();
                 }
 				
-				API.sendChat("/em vient d'activer l'auto-meh! :loudspeaker:");
+				API.sendChat("/em vient d'activer l'auto-Dislike! :loudspeaker:");
  
                 jaaulde.utils.cookies.set(COOKIE_WOOT, autowoot);
         });
@@ -558,7 +558,7 @@ function populateUserlist()
 
         $('#plugbot-userlist').append('<h1 style="text-indent:12px;color:#42A5DC;font-size:14px;font-variant:small-caps;">Utilisateurs: ' + API.getUsers().length + '</h1>');
 
-        $('#plugbot-userlist').append('<p style="padding-left:12px;text-indent:0px !important;font-style:italic;color:#42A5DC;font-size:11px;">Rejoin notre site<br />boost4ever.fr/</p><br />');
+        $('#plugbot-userlist').append('<p style="padding-left:12px;text-indent:0px !important;font-style:italic;color:#42A5DC;font-size:11px;">Rejoin notre site<br />boost4ever.fr</p><br />');
 
         if ($('#button-dj-waitlist-view').attr('title') !== '')
         {
