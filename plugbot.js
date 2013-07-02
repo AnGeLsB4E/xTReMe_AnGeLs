@@ -2,7 +2,7 @@
 * @author : xTReMe_AnGeLs
 * @helper: Moky (autochange)
 * @design : Conner Davis (css)
-* @website : http://www.boos4ever.fr/
+* @website : boos4ever.fr
 */
  
 var active = "activé"
@@ -86,7 +86,7 @@ function displayUI()
 		var cChange = autochange ? '#42A5DC' : '#42A5DC' ;
 		
         $('#plugbot-ui1').append(
-				'<center><p id="plugbot-btn-change" style="color:' + cChange + 
+				'<center><p id="plugbot-btn-change" style="color:#FFFF6B' + cChange + 
 				'">AUTO.AVATAR</p></center>');
 		
 		$('#dj-booth').prepend('<div id="plugbot-ui2"></div>');
