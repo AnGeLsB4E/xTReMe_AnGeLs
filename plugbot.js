@@ -558,7 +558,7 @@ function populateUserlist()
 
         $('#plugbot-userlist').append('<h1 style="text-indent:12px;color:#42A5DC;font-size:14px;font-variant:small-caps;">Utilisateurs: ' + API.getUsers().length + '</h1>');
 
-        $('#plugbot-userlist').append('<p style="padding-left:12px;text-indent:0px !important;font-style:italic;color:#FFFF6B;font-size:12px;">Rejoins notre site sur<br /><a href="http://boost4ever.fr" target="_blank">Boost4Ever</a></p><br />');
+        $('#plugbot-userlist').append('<p style="padding-left:12px;text-indent:0px !important;font-style:italic;color:#FFFF6B;font-size:12px;">Rejoins notre site sur<br /><a href="http://boost4ever.fr" target="_blank">Boost 4 Ever</a></p><br />');
 
         if ($('#button-dj-waitlist-view').attr('title') !== '')
         {
@@ -566,7 +566,7 @@ function populateUserlist()
                         ($.inArray(API.getDJs(), API.getSelf()) == -1)) {
                         var spot = $('#button-dj-waitlist-view').attr('title').split('(')[1];
                         spot = spot.substring(0, spot.indexOf(')'));
-                        $('#plugbot-userlist').append('<h1 id="plugbot-queuespot"><span style="font-variant:small-caps">Liste:</span> ' + spot + '</h1><br />');
+                        $('#plugbot-userlist').append('<h1 id="plugbot-queuespot"><span style="font-variant:small-caps">Liste Attente:</span> ' + spot + '</h1><br />');
                 }
         }
 
