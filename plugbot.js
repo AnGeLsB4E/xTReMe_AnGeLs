@@ -566,7 +566,7 @@ function populateUserlist()
                         ($.inArray(API.getDJs(), API.getSelf()) == -1)) {
                         var spot = $('#button-dj-waitlist-view').attr('title').split('(')[1];
                         spot = spot.substring(0, spot.indexOf(')'));
-                        $('#plugbot-userlist').append('<h1 id="plugbot-queuespot"><span style="font-variant:small-caps">Liste Attente:</span> ' + spot + '</h1><br />');
+                        $('#plugbot-userlist').append('<h1 id="plugbot-queuespot"><span style="font-variant:small-caps">Liste:</span> ' + spot + '</h1><br />');
                 }
         }
 
